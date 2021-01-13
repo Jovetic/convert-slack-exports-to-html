@@ -1,9 +1,9 @@
 #  Parse Slack exports into html files.
 
-$exportPath = "C:\Users\Daniel\Downloads\slack\" #this should be were your extracted your slack export
+$exportPath = "C:\Users\jovet\OneDrive\slack\" #this should be were your extracted your slack export
 
-$pictures = $false #put the picutures in the HTML
-$overwrite = $false #overwrite existing html files
+$pictures = $true #put the picutures in the HTML
+$overwrite = $true #overwrite existing html files
 $rebuildhash = $false #rebuild the dm hash even if it's not empty
 
 Clear-Host
